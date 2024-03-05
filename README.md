@@ -13,14 +13,14 @@ Dataset can be downloaded from Kaggle: [NEU Surface Defect Database](https://www
 
 ## Dataset Structure
 
-D:
-└── dataset
-├── train
-│ ├── annotations\ (contains XML files)
-│ └── images\ (contains subfolders for each class with images)
-└── validation
-├── annotations\ (contains XML files)
-└── images\ (contains subfolders for each class with images)
+dataset/
+├── train/
+│   ├── annotations/ # contains XML files
+│   └── images/      # contains subfolders for each class with images
+└── validation/
+    ├── annotations/ # contains XML files
+    └── images/      # contains subfolders for each class with images
+
 
 ## Features
 
